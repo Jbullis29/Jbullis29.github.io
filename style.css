@@ -33,3 +33,30 @@
   .body{
     background-color:rgb(241, 241, 239);
    }
+
+  #summary_box{
+    background-color: rgb(250, 250, 250);
+    position:relative;
+    left: 10%; 
+    top:9%;
+    margin-right:45%;
+    padding-top:.5%;
+    padding-right: .5%;
+    padding-left: .5%;
+  }
+
+  #summary_top_col{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin-bottom: 5%;
+  }
+  #header{
+    font-size: 400%;
+    color:rgb(2, 204, 204)
+  }
+
+  #summary_img{
+    width :100%;
+    height:60%;
+    
+
+  }
