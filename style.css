@@ -43,6 +43,7 @@
     padding-top:.5%;
     padding-right: .5%;
     padding-left: .5%;
+    margin-bottom: 0%;
   }
 
   #summary_top_col{
@@ -57,6 +58,23 @@
   #summary_img{
     width :100%;
     height:60%;
-    
+  }
 
+  #img_col{
+    margin-bottom: -18%;
+    padding-bottom: 0%;
+
+  }
+
+  #summary_box_two{
+    background-color: rgb(250, 250, 250);
+    position:relative;
+    left: 68%; 
+    bottom: 52.8%;
+    margin-right: 0%;
+    padding-left: .5%;
+  }
+  #viz_col{
+    margin-right: -50%;
+    padding:0%;
   }
