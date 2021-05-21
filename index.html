@@ -14,7 +14,15 @@
             </div>
             <div class="col-sm">
                 <ul class='navbar links'>
-                    <li>Plots</li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                        </div>
+                    </li>
                     <li>Comparison</li>
                     <li>Data</li>
                 </ul>
@@ -31,7 +39,7 @@
         </div>
         <div class ='row'>
             <div class="col-md" id='img_col'>
-                <img id ='summary_img' src="Resources/assets/images/Fig1.png" alt="Italian Trulli">
+                <img id ='summary_img' src="Resources/assets/images/Fig1.png" alt="City Latitude V Max Temp">
             </div>
             <div class="col-md" id = 'img_col'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit dolores dolor eveniet, sint possimus eligendi architecto hic harum tempore iste assumenda consequatur corporis. Error harum id nemo voluptate consequuntur.</p>
@@ -43,10 +51,26 @@
         </div>
     </div>
 </div>
-<div class='container-fixed' id='summary_box_two'>
+<div class='container' id='summary_box_two'>
     <div class ='row'>
         <div class ='col-fixed' id ='summary_top_col'>
             <h2 id ='header'>Visualizations</h2>
+        </div>
+    </div>
+    <div class='row'  id='viz_row_top'>
+        <div class = 'col-sm' id='img_col'>
+            <img id ='viz_img' src="Resources/assets/images/Fig1.png" alt="City Latitude V Max Temp">
+        </div>
+        <div class = 'col-sm' id='img_col'>
+            <img id ='viz_img' src="Resources/assets/images/Fig2.png" alt="City Latitude V Max Temp">
+        </div>
+    </div>
+    <div class='row' id='viz_row_top'>
+        <div class = 'col-sm'>
+            <img id ='viz_img' src="Resources/assets/images/Fig3.png" alt="City Latitude V Max Temp">
+        </div>
+        <div class = 'col-sm'>
+            <img id ='viz_img' src="Resources/assets/images/Fig4.png" alt="City Latitude V Max Temp">
         </div>
     </div>
 </div>
