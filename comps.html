@@ -1,0 +1,92 @@
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Design Challenge</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div class="container-fluid top_bg">
+        <div class ='row'>
+            <div class="col-lg logo_col">
+                <a href='index.html'>
+                    <p class='logo'>Latitude</p>
+                </a>
+                </ul>
+            </div>
+        <div class="col-sm">
+            <ul class='navbar links'>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="max_temp.html">Latitude Vs Max Temp</a>
+                            <a class="dropdown-item" href="humidity.html">Latitude Vs Humidity</a>
+                            <a class="dropdown-item" href="cloudy.html">Latitude Vs Percentage of Cloud</a>
+                            <a class="dropdown-item" href="windspeed.html">Latitude Vs Sustained Windspeed</a>
+                        </div>
+                    </div>
+                </li>
+                <li>Comparison</li>
+                <li>Data</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class='container-fixed' id = 'summary_box_comp'>
+        <div class='row'>
+            <div class ='col-sm'>
+                <h1 id ='header_comp'>
+                    Max Temp at Latitude X
+                </h1>
+            </div>
+            <div class='col-sm'>
+                <h1 id ='header_comp'>
+                    Humidity at Latitude X
+                </h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm'>
+                <a href='max_temp.html'>
+                    <img id ='viz_img' src="Resources/assets/images/Fig1.png" alt="City Latitude V Max Temp">
+                </a>
+            </div>
+            <div class='col-sm'>
+                <a href='humidity.html'>
+                    <img id ='viz_img' src="Resources/assets/images/Fig2.png" alt="City Latitude V Max Temp">
+                </a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm'>
+                <h1 id ='header_comp'>
+                    Percent of Cloud Coverage at Latitude X
+                </h1>
+            </div>
+            <div class='col-sm'>
+                <h1 id ='header_comp'>
+                    Sustained Windspeed at Latitude X
+                </h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class = 'col-sm'>
+                <a href='cloudy.html'>
+                    <img id ='viz_img' src="Resources/assets/images/Fig3.png" alt="City Latitude V Max Temp">
+                </a>
+            </div>
+            <div class='col-sm'>
+                <a href='windspeed.html'>
+                    <img id ='viz_img' src="Resources/assets/images/Fig4.png" alt="City Latitude V Max Temp">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

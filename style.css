@@ -90,3 +90,20 @@
 #summary_col_two{
   margin-bottom:-15%;
 }
+
+#summary_box_comp{
+  background-color: rgb(250, 250, 250);
+  position:relative;
+  left: 10%; 
+  top:9%;
+  margin-right:30%;
+  padding-top:.5%;
+  padding-right: .5%;
+  padding-left: .5%;
+}
+
+#header_comp{
+  font-size: 300%;
+  color:rgb(2, 204, 204);
+  text-align:center;
+}
